@@ -69,8 +69,8 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     void loadNewQuestion() {
         questionTextView.setText(Questions.question[currentIndex]);
         ansA.setText(Questions.choices[currentIndex][0]);
-        ansA.setText(Questions.choices[currentIndex][1]);
-        ansA.setText(Questions.choices[currentIndex][2]);
-        ansA.setText(Questions.choices[currentIndex][3]);
+        ansB.setText(Questions.choices[currentIndex][1]);
+        ansC.setText(Questions.choices[currentIndex][2]);
+        ansD.setText(Questions.choices[currentIndex][3]);
     }
 }
