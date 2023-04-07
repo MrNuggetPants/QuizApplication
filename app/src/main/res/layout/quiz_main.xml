@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_200"
+    android:padding="24dp"
     tools:context=".QuizActivity">
 
     <TextView
@@ -20,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/question"
+        android:textStyle="bold"
         android:text="This will be the question"
         android:layout_centerHorizontal="true"
         android:textSize="24dp"
@@ -76,8 +78,16 @@
             android:textColor="@color/black"
             />
 
-
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_below="@id/linear_layout"
+        android:layout_marginTop="20dp"
+        />
 
 
 
